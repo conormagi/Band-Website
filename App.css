@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+.font-link {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.App {
+  background-color:rgb(22, 22, 22);
+  
+}
+
+
+.ant-anchor-link {
+  padding: 8px 0 8px 18px;
+  line-height: 1;
+  display: inline;
+}
+
+ .ant-anchor-link-title {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.mainBody {
+  color: white;
+  line-height: 1.7em;
+  justify-content: center;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: rgb(22, 22, 22)!important;
+  
+}
+
+
+.imageText{
+  text-align: center;
+  position: absolute;
+  transform: translate(95%, -210%);
+ 
+}
+
+
+
+.Youtube {
+  display: block;
+height: 50vw;
+ margin: auto;
+ margin-top: 75px;
+ max-width: 1200px;
+ width: 90%;
+
+}
+
+.Spotify {
+  display: flex;
+height: 30vw;
+ width: 60%;
+ margin: auto;
+ margin-top: 75px;
+ max-height: 300px;
+ max-width: 700px;
+ margin-top: 100px;
+ margin-bottom: 130px;
+}
+
+.img {
+  height: 100%;
+ width: 100%;
+  position:relative;
+ overflow:auto;
+ 
+}
+
+.about {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+
+#contact {
+display: flex;
+align-items: center;
+ margin: auto;
+  padding: 0px 20px 25px 30px;
+  justify-content: center;
+
+  
+}
+
+.Bio {
+  
+justify-content: center;
+ margin: auto;
+}
+
+#contact .container{
+margin-top: 100px;
+
+}
+#contact .container .fields:hover {
+  border-color: #fff;
+}
+
+#contact .container .fields {
+  outline: none;
+  display: inline;
+  margin-bottom: 10px;
+  background: rgb(22, 22, 22);
+  border-left: rgb(22, 22, 22);
+  border-right: rgb(22, 22, 22);
+  border-top: rgb(22, 22, 22);
+  border-width: 1px;
+  color: #fff;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#contact .fields:focus {
+  color: #fff;
+}
+
+#contact .fields:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+}
+
+#contact ::placeholder {
+  font-size: 15px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+#contact #name {
+  height: 40px;
+  width: 375px;
+  margin-right: 2.5px;
+}
+#contact #email {
+  height: 40px;
+  width: 375px;
+  margin-left: 2.5px;
+}
+#contact #subject {
+  height: 40px;
+  width: 757px;
+}
+#contact #message {
+  height: 120px;
+  width: 757px;
+}
+
+#contact .btn {
+  
+  padding: 15px;
+  width: 50vw;
+  min-width: 300px;
+  max-width: 750px;
+  font-size: 18px;
+  margin-top: 20px;
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+#contact .btn:hover {
+  background-color: rgb(139, 137, 137);
+}
+
